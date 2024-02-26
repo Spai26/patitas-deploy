@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "ES2017",
+    "target": "ES2022",
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "rootDirs": ["./src"],
-
+    "baseUrl": ".",
+    "typeRoots": ["src/@types", "./node_modules/@types"],
+    "removeComments": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": false /* Skip type checking .d.ts files that are included with TypeScript. */,
@@ -16,6 +17,6 @@
     "strictPropertyInitialization": false,
     "resolveJsonModule": true
   },
-  "include": ["./**/**/*", "src/services/sendinblue/.ts"],
+  "include": ["./src/**/**/*", "src/services/sendinblue/.ts"],
   "exclude": ["node_modules", "build", "src/test"]
 }

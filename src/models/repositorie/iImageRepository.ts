@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable class-methods-use-this */
 import mongoose, { FilterQuery, QueryWithHelpers } from "mongoose";
-import { BaseRepository } from "../../repositories/BaseRepository";
+import { BaseRepository } from "../../repositories/base-repository";
 import { ImageModel } from "../mongoose/image.model";
 import { IImage } from "../../interface";
 import { ServiceImage } from "../../services/Image/cloudinary";

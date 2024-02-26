@@ -2,7 +2,7 @@
 import mongoose, { FilterQuery, QueryWithHelpers } from "mongoose";
 import bcrypt from "bcrypt";
 import { IUser, listNameArray } from "../../interface";
-import { BaseRepository } from "../../repositories/BaseRepository";
+import { BaseRepository } from "../../repositories/base-repository";
 import { UserModel } from "../mongoose/user.model";
 import { IAuth } from "../../helpers";
 import { RolRepository } from "./RolRespository";

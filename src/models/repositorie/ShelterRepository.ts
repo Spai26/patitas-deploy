@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
 import mongoose from "mongoose";
-import { BaseRepository } from "../../repositories/BaseRepository";
+import { BaseRepository } from "../../repositories/base-repository";
 import { IShelter } from "../../interface/props/ShelterInterface";
 import { ShelterModel } from "../mongoose/shelters.model";
 

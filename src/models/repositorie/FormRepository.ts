@@ -1,7 +1,7 @@
 /* eslint-disable class-methods-use-this */
 import mongoose, { FilterQuery, QueryWithHelpers } from "mongoose";
 import { FormModel } from "../mongoose/form.model";
-import { BaseRepository } from "../../repositories/BaseRepository";
+import { BaseRepository } from "../../repositories/base-repository";
 import { IForm } from "../../interface";
 
 export class FormRepository extends BaseRepository<IForm, string> {

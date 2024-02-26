@@ -2,7 +2,7 @@
 /* eslint-disable class-methods-use-this */
 import mongoose, { FilterQuery, QueryWithHelpers } from "mongoose";
 import { IRol } from "../../interface/props/RolInterface";
-import { BaseRepository } from "../../repositories/BaseRepository";
+import { BaseRepository } from "../../repositories/base-repository";
 import { RolModel } from "../mongoose/rol.model";
 import { USERADMIN } from "../../helpers";
 

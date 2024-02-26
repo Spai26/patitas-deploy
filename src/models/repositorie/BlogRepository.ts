@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 import { BlogModel } from "../mongoose/blog.model";
 import { IBlog } from "../../interface";
-import { BaseRepository } from "../../repositories/BaseRepository";
+import { BaseRepository } from "../../repositories/base-repository";
 
 export class BlogRepository extends BaseRepository<IBlog, string> {
   constructor() {
