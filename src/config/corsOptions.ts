@@ -6,7 +6,7 @@ import cors from "cors";
  * !TODO: You can add future destiny routes here.
  */
 
-const ACCEPTED_ORIGINS = ["http://localhost:5173"];
+const ACCEPTED_ORIGINS = ["http://localhost:5173", "http://66.181.33.35:*"];
 
 export const corsMiddleware = ({ acceptedOrigins = ACCEPTED_ORIGINS } = {}) =>
   cors({
